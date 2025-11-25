@@ -1,0 +1,1 @@
+echo -e "admin\nuser\nguest\ntest\ndeveloper\nroot" > users.txt
