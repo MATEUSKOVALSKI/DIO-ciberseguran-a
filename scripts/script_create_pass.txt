@@ -1,0 +1,1 @@
+echo -e "123456\npassword\nadmin\nroot\ntoor\nqwerty\n12345\nletmein\nwelcome" > wordlist.txt
