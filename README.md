@@ -39,7 +39,7 @@ medusa -h 192.168.56.101 -u admin -P pass.txt -M ftp
 **2. Automação em Formulário Web (DVWA)**
 ```bash
 medusa -h 192.168.56.102 -U users.txt -P pass.txt -M http \
--m FORM:/dvwa/login.php:username=^USER^&password=^PASS^:F=Login failed
+-m 'FORM:/dvwa/login.php:username=^USER^&password=^PASS^:F=Login failed'
 ```
 
 **3. Password Spraying em SMB**
